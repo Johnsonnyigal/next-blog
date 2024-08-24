@@ -12,7 +12,6 @@ export default function Home() {
 let email: string | undefined = "";
 let role: string | undefined = "";
 
- console.log(session);
  if(session) {
    email = session.user?.email!;
    role = session.user?.role!;
