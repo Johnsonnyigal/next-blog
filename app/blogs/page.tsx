@@ -35,7 +35,6 @@ const BlogsPage = () => {
       fetchBlogs()
     }, [])
 
-    console.log(blogs);
   
   
     //Calculate the indexes for the cards to be displayed on the current page
